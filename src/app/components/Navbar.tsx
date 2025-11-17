@@ -11,20 +11,20 @@ function Navbar() {
   const navLinks = [
     { href: '/', label: 'Home' },
     {
-      href: '/about',
+      href: '/about-us',
       label: 'About Us',
       hasDropdown: true,
       dropdownItems: [
-        { href: '/about', label: 'About' },
+        { href: '/about-us', label: 'About' },
         { href: '/certificates', label: 'Certificates' },
         { href: '/awards', label: 'Awards' }
       ]
     },
     { href: '/services', label: 'Services' },
     { href: '/clients', label: 'Clients' },
-    { href: '/distillation', label: 'Distillation Process' },
+    { href: '/distillation-process', label: 'Distillation Process' },
     { href: '/gallery', label: 'Gallery' },
-    { href: '/contact', label: 'Contact Us' },
+    { href: '/contact-us', label: 'Contact Us' },
   ];
 
   const handleLinkClick = () => {
@@ -36,7 +36,7 @@ function Navbar() {
     setIsAboutDropdownOpen(!isAboutDropdownOpen);
   };
 
-  const isAboutActive = pathname === '/about' || pathname === '/awards';
+  const isAboutActive = pathname === '/about-us' || pathname === '/awards';
 
   return (
     <header className="fixed top-0 left-0 w-full z-50 font-roboto">

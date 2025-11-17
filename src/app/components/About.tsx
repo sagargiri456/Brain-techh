@@ -59,7 +59,7 @@ effective services that ensure maximum plant performance and minimal downtime. O
 commitment to innovation, quality, and customer satisfaction makes Braintechh Engineers 
 a trusted name across India’s power and process industries.
             </p>
-            <a href="/about" className="cs-button-solid">
+            <a href="/about-us" className="cs-button-solid">
               Read More
               <img 
                 className="cs-button-arrow" 
