@@ -325,7 +325,7 @@ function Footer() {
             {/* Company Info - Centered */}
             <div className="cs-company-info">
               <div className="cs-logo">
-                <img src="./logo.png" alt="Company Logo" className='h-30 w-auto' />
+                <img src="/logo.png" alt="Company Logo" className='h-30 w-auto' />
               </div>
               <p className="cs-company-description">
                 Leading industrial solutions provider with decades of experience in power plant maintenance, engineering consultancy, and project services.
